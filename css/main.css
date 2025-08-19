@@ -1,0 +1,78 @@
+/* generale */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#060F2C ;
+    font-size: 16px;
+    font-family: "Noto Sans",Arial, Helvetica, sans-serif;
+} 
+
+h1{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+button{
+    background-color: #2F354B;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+.container_principal{
+    background-color: bisque;
+    width: 80vw;
+    height: 1000Px;
+    margin: 20px auto;
+}
+
+/* Header */
+
+.ct_header{
+    display: flex;
+    justify-content: space-between;
+
+    height: 50px;
+    width: 100%;
+    background-color: #1F2535;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.ct_header img:last-child{
+    border-radius: 8px;
+    background-color: #2E364B;
+    padding: 5px;
+}
+
+/* main */
+
+.ct_title{
+    background-color: red;
+    border-radius: 0px;
+    margin-top: 50px;
+}
+
+/* Griglia + Card  */
+
+.ct_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+
+    margin-top: 30px;
+}
+
+.card{
+    height: 180px;
+    background-color: #0044ff;
+}
